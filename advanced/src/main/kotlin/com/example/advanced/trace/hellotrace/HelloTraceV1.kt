@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component
 @Component
 class HelloTraceV1 {
 
-
     fun begin(message: String): TraceStatus {
         val traceId = TraceId()
         val startTimeMs = System.currentTimeMillis()
@@ -20,7 +19,7 @@ class HelloTraceV1 {
         complete(status, null)
     }
 
-    fun exception(status: TraceStatus, e: Exception) {
+    fun exception(status: TraceStatus, e: Exception?) {
         complete(status, e)
     }
 
