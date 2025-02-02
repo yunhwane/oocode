@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/oocde.iml" filepath="$PROJECT_DIR$/oocde.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy.main.iml" />
     </modules>
   </component>
 </project>
