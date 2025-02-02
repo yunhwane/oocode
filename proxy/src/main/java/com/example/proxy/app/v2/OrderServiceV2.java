@@ -1,6 +1,5 @@
 package com.example.proxy.app.v2;
 
-import com.example.proxy.app.v1.OrderRepositoryV1;
 
 public class OrderServiceV2 {
 
@@ -13,5 +12,6 @@ public class OrderServiceV2 {
     public void order(String itemId) {
         orderRepositoryV2.save(itemId);
     }
+
 
 }
