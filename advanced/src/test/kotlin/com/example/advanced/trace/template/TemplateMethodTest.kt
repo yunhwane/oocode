@@ -46,4 +46,26 @@ class TemplateMethodTest {
         val logic2 = SubClassLogic2()
         logic2.execute()
     }
+
+
+    /**
+     * 익명 내부 클래스로 구현하기
+     */
+
+    @Test
+    fun templateMethodV2() {
+        val logic1 = object : SubClassLogic1() {
+            override fun call() {
+                log.info("비즈니스 로직 1")
+            }
+        }
+        logic1.execute()
+
+        val logic2 = object : SubClassLogic2() {
+            override fun call() {
+                log.info("비즈니스 로직 2")
+            }
+        }
+        logic2.execute()
+    }
 }

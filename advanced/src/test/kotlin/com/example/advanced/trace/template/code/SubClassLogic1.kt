@@ -1,6 +1,6 @@
 package com.example.advanced.trace.template.code
 
-class SubClassLogic1 : AbstractTemplate() {
+open class SubClassLogic1 : AbstractTemplate() {
 
     private val log = org.slf4j.LoggerFactory.getLogger(this::class.java)
 
