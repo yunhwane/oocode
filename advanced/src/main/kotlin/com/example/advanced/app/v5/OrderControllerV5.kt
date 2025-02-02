@@ -3,7 +3,6 @@ package com.example.advanced.app.v5
 import com.example.advanced.trace.callback.TraceCallback
 import com.example.advanced.trace.callback.TraceTemplate
 import com.example.advanced.trace.logtrace.LogTrace
-import com.example.advanced.trace.template.AbstractTemplate
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController

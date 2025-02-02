@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/advanced" />
     <file type="web" url="file://$PROJECT_DIR$/hello-spring" />
+    <file type="web" url="file://$PROJECT_DIR$/proxy" />
   </component>
   <component name="MaterialThemeProjectNewConfig">
     <option name="metadata">
